@@ -1,0 +1,43 @@
+@media(max-width:1200px){
+
+}
+
+
+
+
+
+
+@media(max-width:991px){
+    
+    .navbar-nav .nav-item{
+        padding-bottom:17px;
+    }
+    .btn-group{
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+
+@media(max-width:768px){
+
+    /*---------NAVBAR----------*/
+    .navbar-nav .nav-item{
+        padding-bottom:17px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+@media(max-width:576px){
+    
+}

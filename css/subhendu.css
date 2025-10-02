@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4F6F6;
+}
+/*---------NAVBAR----------*/
+.navbar{
+    background-color:#38434B;
+   
+}
+.navbar-brand{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight:500;
+    text-transform: uppercase;
+    color: #ffffff;
+    
+}
+.navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-nav .nav-item{
+    padding-inline: 15px;
+}
+
+.navbar-nav .nav-item .nav-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+}
+.navbar-nav .nav-item .active,
+.navbar-nav .nav-item .nav-link:hover{
+    color: #00B4FF;
+}
+.btn-group button{
+    margin-inline: 10px;
+    padding: 7px 22px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1rem;
+    border: 1px solid #1073A4;
+    background-color: #1073A4;
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+.btn-group button:hover{
+    background-color: #59aad2;
+    border: 1px solid #58a7ce;
+}
+.navbar-toggler{
+    box-shadow: none;
+    
+    span{
+        color: #ffffff;
+    }
+}
+.icon{
+    color: #ffffff;
+}
+/*---------MODAL Lg in----------*/
+.modal-title{
+    color: #ffffff;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.modal-body input{
+    width: 60%;
+    height: 5vh;
+    border-radius: 50px;
+    padding-left: 11px;
+    background-color: #DFDBE7;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #533b3b;
+}
+.fade{
+    
+}
+.modal-content{
+    background:linear-gradient(to bottom,#748a99);
+}
+
+.for-text{
+    padding: 0;
+    margin: 0;
+}
+.for-text .remember{
+    width: 50%;
+}
+.for-text .remember input{
+    padding: 0;
+    margin: 0;
+    width: 7%;
+}
+.forget a{
+    color: #ffffff;
+    transition: all 0.2s ease;
+}
+.forget a:hover{
+    color:greenyellow;
+}
